@@ -1,0 +1,11 @@
+
+ @font-face { font-style : normal; src: url("assets/fonts/UrbanistRegular.ttf"); font-family : "Urbanist"; font-weight : 400;  }
+ @font-face { font-style : normal; src: url("assets/fonts/DMSansRegular.ttf"); font-family : "DM Sans"; font-weight : 400;  }
+ @font-face { font-style : bold; src: url("assets/fonts/DMSansMedium.ttf"); font-family : "DM Sans"; font-weight : 500;  }
+ @font-face { font-style : bold; src: url("assets/fonts/WorkSansRomanMedium.ttf"); font-family : "Work Sans"; font-weight : 500;  }
+ @font-face { font-style : bold; src: url("assets/fonts/UrbanistMedium.ttf"); font-family : "Urbanist"; font-weight : 500;  }
+ @font-face { font-style : bold; src: url("assets/fonts/DMSansBold.ttf"); font-family : "DM Sans"; font-weight : 700;  }
+ @font-face { font-style : bold; src: url("assets/fonts/UrbanistSemiBold.ttf"); font-family : "Urbanist"; font-weight : 600;  }
+ @font-face { font-style : normal; src: url("assets/fonts/WorkSansRegular.ttf"); font-family : "Work Sans"; font-weight : 400;  }
+ @font-face { font-style : normal; src: url("assets/fonts/WorkSansRomanRegular.ttf"); font-family : "Work Sans"; font-weight : 400;  }
+ @font-face { font-style : bold; src: url("assets/fonts/WorkSansLight.ttf"); font-family : "Work Sans"; font-weight : 300;  }

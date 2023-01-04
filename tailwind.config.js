@@ -1,0 +1,67 @@
+module.exports = {
+  mode: "jit",
+  content: [
+    "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,html,mdx}",
+  ],
+  darkMode: "class",
+  theme: {
+    screens: {
+      sm: { min: "200px", max: "767px" },
+      md: { min: "768px", max: "991px" },
+    },
+    extend: {
+      colors: {
+        red_600: "#da4444",
+        red_300: "#ea666e",
+        deep_orange_400_00: "#fa6c5800",
+        red_400: "#f75243",
+        light_blue_400: "#31b5e9",
+        green_600: "#3dab24",
+        teal_600: "#0b8c6c",
+        cyan_A400_66: "#00d2ff66",
+        yellow_700: "#f9be3c",
+        deep_orange_300: "#fa9258",
+        deep_orange_400: "#fa6c58",
+        deep_orange_301: "#fa9158",
+        pink_400: "#f3407d",
+        purple_400: "#9b51e0",
+        gray_501: "#aca6a6",
+        gray_700: "#606060",
+        gray_500: "#a0a0a0",
+        orange_A200: "#f2994a",
+        blue_700: "#3a7bd5",
+        blue_800: "#1d57c8",
+        gray_900: "#121212",
+        gray_300: "#e5e5e5",
+        gray_100: "#f6f6f6",
+        indigo_200: "#a0bce0",
+        white_A700: "#ffffff",
+      },
+      borderRadius: {
+        radius2: "2px",
+        radius4: "4px",
+        radius5: "5px",
+        radius50: "50%",
+      },
+      fontFamily: {
+        urbanist: "Urbanist",
+        dmsans: "DM Sans",
+        worksans: "Work Sans",
+      },
+      backgroundImage: {
+        gradient:
+          "linear-gradient(122.98deg ,#fa6c58,#fa9158,#fa9158,#fa9258,#fa6c5800,#fa6c58)",
+        gradient1: "linear-gradient(113.84deg ,#3a7bd5,#00d2ff66)",
+      },
+      letterSpacing: {
+        ls1: "1px",
+        ls11: "-1px",
+        ls028: "-0.28px",
+        ls056: "-0.56px",
+        ls12000000000000002: "1.2000000000000002px",
+      },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};
